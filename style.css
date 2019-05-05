@@ -1,0 +1,241 @@
+
+
+section{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 10px;
+	background-color: #ffffff;
+	color: #333333;
+	width: 100%;
+  height: 720px;
+  cursor: url(assets/cursor.png), auto;
+}
+
+
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: italic;
+	font-size: 37px;
+	font-weight: 700;
+  margin: 10px;
+  max-width: 100%;
+  text-align: center;  
+}
+
+p.description{
+  font-size: 12px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-bottom: 30px;
+  
+}
+
+p.logo{
+  text-align: center;
+   font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+img{
+  width : 30%;
+  max-width: 100%;
+  min-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+ margin-bottom: auto;
+}
+/* 
+a{
+  font-size: 20px;
+   max-width: 100%;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+p{
+  font-size: 20px;
+  
+} */
+
+
+div img{
+  max-width: 100%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 20px;
+}
+
+
+.tree{
+  position:  absolute;
+  right: 20%;
+  bottom: 20%;
+  
+}
+
+.tree img{
+  width: 40px;
+}
+
+.city{
+   position:  absolute;
+  left: 20%;
+  bottom: 20%;
+}
+
+.city img{
+  width: 40px;
+}
+/*2016*/
+.shelve2016{
+  position:  absolute;
+  left: 5%;
+  bottom: 10%;
+  background-image: url(assets/shelve.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+width:200px;
+  height: 60px;
+}
+
+.shelve2016 a{
+  text-decoration: none;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+}
+.shelve2016 a img{
+  opacity: 0;
+}
+
+.shelve2016:hover{
+  background-image: url(assets/shelve_open.png);
+}
+
+.shelve2016:hover a{
+  opacity: 1;
+}
+
+/* 2017*/
+.shelve2017{
+  position:  absolute;
+  left: 30%;
+  bottom: 40%;
+  background-image: url(assets/shelve.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+width:200px;
+  height: 60px;
+}
+
+.shelve2017 a{
+  text-decoration: none;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+}
+.shelve2017 a img{
+  opacity: 0;
+}
+
+.shelve2017:hover{
+  background-image: url(assets/shelve_open.png);
+}
+
+.shelve2017:hover a{
+  opacity: 1;
+}
+
+/*2018*/
+.shelve2018{
+  position:  absolute;
+  right: 7%;
+  bottom: 35%;
+  background-image: url(assets/shelve.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+width:200px;
+  height: 60px;
+}
+
+.shelve2018 a{
+  text-decoration: none;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+}
+.shelve2018 a img{
+  opacity: 0;
+}
+
+.shelve2018:hover{
+  background-image: url(assets/shelve_open.png);
+}
+
+.shelve2018:hover a{
+  opacity: 1;
+}
+
+/*2019*/
+.shelve2019{
+  position:  absolute;
+  right: 30%;
+  bottom: 50%;
+  background-image: url(assets/shelve.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+width:200px;
+  height: 60px;
+}
+
+.shelve2019 a{
+  text-decoration: none;
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+}
+.shelve2019 a img{
+  opacity: 0;
+}
+
+.shelve2019:hover{
+  background-image: url(assets/shelve_open.png);
+}
+
+.shelve2019:hover a{
+  opacity: 1;
+}
+
+
+div{
+  cursor: url(assets/cursor.png), auto;
+}
+
+a {
+  cursor: url(assets/cursor_hover.png), auto;
+}
