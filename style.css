@@ -264,6 +264,15 @@ width:200px;
 
 @media(max-width:500px){
     
+    .logo{
+        margin: 0;
+    }
+    
+   
+    
+    .plane{
+        margin: 0;
+    }
     .tree{
         left:10%;
         bottom:18%;
@@ -328,5 +337,12 @@ width:200px;
         font-size:10px;
     }
     
+}
+
+@media(max-width:320px){
+    
+    p.description{
+        padding-bottom: 0;
+    }
 }
 
