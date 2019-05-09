@@ -1,5 +1,4 @@
 
-
 section{
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 16px;
@@ -9,7 +8,7 @@ section{
 	color: #333333;
 	width: 100%;
   height: 720px;
-  cursor: url(assets/cursor.png), auto;
+
 }
 
 
@@ -81,7 +80,7 @@ div img{
 
 .tree{
   position:  absolute;
-  right: 20%;
+  left: 20%;
   bottom: 20%;
   
 }
@@ -90,15 +89,46 @@ div img{
   width: 40px;
 }
 
+.tree a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+    text-decoration: none;
+    color:black;
+    opacity: 0;
+}
+
+.tree:hover a{
+    opacity: 1;
+}
+
 .city{
    position:  absolute;
-  left: 20%;
+  right: 20%;
   bottom: 20%;
 }
 
 .city img{
   width: 40px;
 }
+
+.city a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+  font-size: 12px;
+  line-height: 1.4;
+    text-decoration: none;
+    color:black;
+    opacity: 0;
+}
+
+.city:hover a{
+    opacity: 1;
+}
+
+
+
 /*2016*/
 .shelve2016{
   position:  absolute;
@@ -208,6 +238,7 @@ width:200px;
   background-size: contain;
 width:200px;
   height: 60px;
+
 }
 
 .shelve2019 a{
@@ -231,11 +262,40 @@ width:200px;
   opacity: 1;
 }
 
-
-div{
-  cursor: url(assets/cursor.png), auto;
+@media(max-width:500px){
+    .shelve{
+        max-width: 500px;
+    }
+         .shelve2016{
+  position: fixed;
+  left: 70%;
+  bottom: 7%;
+ width:80px;
+             line-height: 1.0;
+}    
+    
+          .shelve2017{
+  position:  fixed;
+  left: 50%;
+  bottom: 7%;
+              width:80px;
+              line-height: 1.0;
 }
 
-a {
-  cursor: url(assets/cursor_hover.png), auto;
+      .shelve2018{
+  position:  fixed;
+  left: 30%;
+  bottom: 7%;
+          width:80px;
+          line-height: 1.0;
+}
+    
+    .shelve2019{
+  position:  fixed;
+  left: 10%;
+  bottom: 7%;
+  width:80px;
+        line-height: 1.0;
+}
+
 }
